@@ -36,6 +36,8 @@ func (rect Rect) center() Point {
 		y: rect.p.y - rect.s.h/2.0}
 }
 
+// this is just for pull request not anything else #fakeBrofistansh
+
 func (rect Rect) toSdlRect() *sdl.Rect {
 	return &sdl.Rect{
 		X: int32(rect.p.x),
