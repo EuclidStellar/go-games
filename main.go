@@ -11,6 +11,8 @@ const (
 	SCREEN_HEIGHT = 800
 )
 
+
+
 var elements []*Element
 var bulletPool []*Element
 
